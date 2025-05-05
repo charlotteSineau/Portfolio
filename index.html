@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="home-active">
+
+  <!-- Menu -->
+  <div id="menu">
+    <a href="#" data-target="home">Parcours</a>
+    <a href="#" data-target="about">Loisirs</a>
+    <a href="#" data-target="projects">Réalisations</a>
+
+    <a href="#" data-target="contact">Informations complémentaires</a>
+
+
+  </div>
+
+
+  <!-- Contenu -->
+  <div id="content">
+    <section id="home" class="active">
+      <div id="presentation">
+        <h1>Bonjour ! Je m'appelle <span class="reveal" id="prenom">Charlotte</span></h1>
+        <P> J'ai obtenu mon <span class="reveal" id="prenom">BAC S</span> en 2019, puis je me suis orientée vers le
+          multimédia avec un <span class="reveal" id="prenom">DUT MMI</span> </P>
+        <p>Pour compléter mon dîplome, j'ai effectué un stage de trois mois au sein du Commandemant des Forces Aériennes
+          Stratégiques (Armée de l'Air). J'y ai réalisé des missions variées telles que la création d'affiches </p>
+      </div>
+
+
+    </section>
+
+    <section id="about">
+      <div id="services-container" class="services-grid">
+        <!-- Service 1 -->
+        <div class="service">
+          <img src="css/img/icone/1.png" alt="Prises de vue aériennes">
+          <div class="service-text">
+            <h2>Prises de vue aériennes</h2>
+            <p>
+              Captation de vos événements privés : mariages, anniversaires, fêtes.</p>
+            <p>Mise en valeur de votre propriété pour vos ventes/locations.</p>
+          </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service">
+          <img src="css/img/icone/3.png" alt="Design Graphique">
+          <div class="service-text">
+            <h2>Design Graphique</h2>
+            <p>
+              Conception graphique pour vos logos, patchs, flyers, et supports de communication.
+            </p>
+          </div>
+        </div>
+
+
+
+        <!-- Service 3 -->
+        <div class="service">
+          <img src="css/img/icone/2.png" alt="Photographie">
+          <div class="service-text">
+            <h2>Photographie</h2>
+            <p>Je fais de la photographie animalière et de paysage depuis 5 ans</p>
+            <p>Voir mes photos sur :</p>
+            <p>
+              <a href="https://fineartamerica.com/profiles/charlotte-sineau">Fineartamerica</a>
+              <a href="https://www.istockphoto.com/fr/portfolio/charlotte-sineau">Istock</a>
+            </p>
+          </div>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service">
+          <img src="css/img/icone/plane.png" alt="Création de Pin's">
+          <div class="service-text">
+            <h2>Aviation</h2>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="contact-button-container" id="liencontact">
+        <img src="css/img/icone/image-removebg-preview.png" class="contact-button">
+        <p class="mecontacter">Me Contacter</p>
+
+      </div>
+
+    </section>
+
+
+    <section id="projects">
+
+      
+
+      <div class="container">
+
+        <div class="slide">
+
+
+          <div class="item" style="background-image: url(css/img/pins.png);">
+            <div class="content">
+              <div class="name">Création de Pin's</div>
+              <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+              <button>See More</button>
+            </div>
+          </div>
+          <div class="item" style="background-image: url(css/img/photos.png);" id="photographie">
+            <div class="content">
+              <div class="name">Photographie</div>
+              <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+              <button>See More</button>
+            </div>
+          </div>
+          
+          <div class="item video-item">
+            <div class="content">
+              <div class="name">Amazing Video</div>
+              <div class="des">Enjoy this beautiful video!</div>
+              <button id="openInstagramFeed">See More</button>
+            </div>
+            <video class="video" autoplay muted loop>
+              <source src="css/videos/video-drone.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+
+
+
+        </div>
+
+          <!-- La popup  pdf -->
+          <div id="popup" class="popup">
+            <div class="popup-content">
+              <span class="close-btn">&times;</span>
+              <iframe id="pdfViewer" src=""></iframe>
+            </div>
+          </div>
+
+<!-- Overlay noir -->
+<div class="overlay-ig"></div>
+          <!-- La popup  ig -->
+        <!-- Elfsight Instagram Feed | Untitled Instagram Feed -->
+         <div class="popup-ig">
+          <button class="close-popup-ig">&times;</button>
+
+<script src="https://static.elfsight.com/platform/platform.js" async></script>
+<div class="elfsight-app-ed55be1f-d0f0-41e3-8fdf-ba37fd5cb058" data-elfsight-app-lazy style="display: none;"></div>>
+</div>
+        </div>
+
+        <div class="button">
+          <div class="prev"><img src="css/img/icone/left.png"></div>
+          <div class="next"><img src="css/img/icone/right.png"></div>
+        </div>
+
+      </div>
+
+
+
+    </section>
+
+
+    <section id="contact">
+      <div id="text-contact">
+        <h1>Contact</h1>
+        <p> Pour la création de badges <li>Mail : badg'n@orange.fr</li>
+          <li>Messenger : m.me/111245224337130</li>
+        </p>
+
+        <br>
+        <p> Pour tous les autres services <li>Mail : charlottesineau@orange.fr</li>
+        </p>
+      </div>
+      <img src="css/img/icone/ois.png">
+
+      <!-- Elfsight Instagram Feed | Untitled Instagram Feed -->
+      <script src="https://static.elfsight.com/platform/platform.js" async></script>
+    </section>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
