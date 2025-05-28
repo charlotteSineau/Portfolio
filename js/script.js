@@ -69,11 +69,12 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   
 
-  document.getElementById('openInstagramFeed').addEventListener('click', function() {
-    document.querySelector('.elfsight-app-ed55be1f-d0f0-41e3-8fdf-ba37fd5cb058').style.display = 'block';
-    document.querySelector('.popup-ig').style.display = 'block';
-    document.querySelector('.overlay-ig').style.display = 'block';
-  });
+document.getElementById('openInstagramFeed').addEventListener('click', function() {
+  document.querySelector('.popup-ig').style.display = 'block';
+  document.querySelector('.overlay-ig').style.display = 'block';
+  document.querySelector('.elfsight-app-ed55be1f-d0f0-41e3-8fdf-ba37fd5cb058').style.display = 'block';
+});
+
   
   document.querySelector('.close-popup-ig').addEventListener('click', function() {
     document.querySelector('.popup-ig').style.display = 'none';

@@ -316,31 +316,34 @@ color: #fff;}
  top: 25%;
  left: 100px;
 display: none;
-border-radius: 10px;
-      filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.8));
+
+      filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.9));
 
 }
 
+.row-content {
+    display: flex;
+    flex-direction: row;
+}
  
 
  .content h2 {
     font-weight: 100;
-     font-size: 70px;
+     font-size: 60px;
      animation: animate 1s ease-in-out 1 forwards;
  }
 
  
  .content button {
-    display: flex;
      border: none;
-     font-size: 30px;
      color: rgb(255, 255, 255);
      background-image: url(css/img/icone/voir.png);
      background-color: transparent;
      cursor: pointer;
      opacity: 0;
-     font-family: Typerwriter;
+     z-index: 1500;
      animation: animate 1s ease-in-out 0.6s 1 forwards;
+     
  }
  
  
@@ -420,10 +423,6 @@ border-radius: 10px;
 
 
 
-#openInstagramFeed {
-    position: relative;
-    z-index: 2; /* S'assurer que le bouton est au-dessus des autres éléments */
-}
 
 
 .overlay-ig {
@@ -440,11 +439,10 @@ border-radius: 10px;
 
 
 .popup-ig {
-    margin-top: 100px;
     position: relative;
-       z-index: 1010; /* la popup doit être par dessus */
-    display: none; /* Initialement caché */
-
+    z-index: 1010;
+display: none;
+margin-top: 100px;    /* autres styles */
 }
 
 
