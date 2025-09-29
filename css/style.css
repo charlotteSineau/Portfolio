@@ -21,7 +21,9 @@ body {
     src: url("police/JMH\ Typewriter-Thin.otf");
 }
 
-
+button {
+    font-family : Typerwriter;
+}
 
 
 /* Menu */
