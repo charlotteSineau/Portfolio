@@ -14,7 +14,10 @@ body {
     /* L'espacement du top est là pour éviter que le contenu ne soit caché sous le menu */
 }
 
-
+#JRI {
+    display : flex;
+    flex-direction : column;
+}
 
 @font-face {
     font-family: "Typerwriter";
