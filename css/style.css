@@ -17,6 +17,7 @@ body {
 #JRI {
     display : flex;
     flex-direction : column;
+    justify-content : center;
 }
 
 @font-face {
