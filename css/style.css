@@ -13,6 +13,8 @@ body {
     background-color: #E8E3DB;
     /* L'espacement du top est là pour éviter que le contenu ne soit caché sous le menu */
 }
+html,body{overflow-y: scroll; }
+
 
 #JRI {
     display : flex;
