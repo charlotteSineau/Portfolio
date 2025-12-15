@@ -17,6 +17,7 @@ html,body{overflow-y: scroll; }
 
 
 #JRI {
+    width : 70%;
     margin-top : 100px;
     display : flex;
     flex-direction : column;
