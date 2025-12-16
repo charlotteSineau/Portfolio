@@ -1,6 +1,8 @@
 /* Style de base */
 
-
+html {
+  overflow: hidden;   /* pas de scroll sur html */
+}
 body {
     overflow-y: auto;
 overflow-x: hidden;
