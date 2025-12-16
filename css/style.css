@@ -153,8 +153,8 @@ button {
  
 /* Sections */
 section {
- position: relative;   /* IMPORTANT */
-    min-height: 100vh;    /* chaque section fait au moins un écran */    top: 0;
+ position: absolute;   /* IMPORTANT */
+
     left: 0;
     width: 100%;
     opacity: 0; /* Cache la section */
