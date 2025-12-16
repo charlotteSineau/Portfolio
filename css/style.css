@@ -1,8 +1,5 @@
 /* Style de base */
 
-html {
-  overflow: hidden;   /* pas de scroll sur html */
-}
 body {
     background-image: url(img/back2.jpg);
     font-family: Typerwriter;
@@ -11,7 +8,6 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    overflow-x: hidden;
     color: #2D3621;
     background-color: #E8E3DB;
     /* L'espacement du top est là pour éviter que le contenu ne soit caché sous le menu */
@@ -19,7 +15,6 @@ body {
 
 
 #JRI {
-   overflow-y: auto;
  margin-top : 50px;
     display : flex;
     flex-direction : column;
