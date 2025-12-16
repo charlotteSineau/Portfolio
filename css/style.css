@@ -1,4 +1,7 @@
 /* Style de base */
+
+html { overflow-y: scroll; }
+
 body {
     overflow: hidden;
     background-image: url(img/back2.jpg);
