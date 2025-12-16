@@ -1,9 +1,9 @@
 /* Style de base */
 
-html { overflow-y: scroll; }
 
 body {
-    overflow: hidden;
+    overflow-y: auto;
+overflow-x: hidden;
     background-image: url(img/back2.jpg);
     font-family: Typerwriter;
     margin: 0;
@@ -157,8 +157,6 @@ button {
  
 /* Sections */
 section {
-   overflow-y: scroll; 
-
     position: absolute;
     top: 0;
     left: 0;
