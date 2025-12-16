@@ -4,8 +4,6 @@ html {
   overflow: hidden;   /* pas de scroll sur html */
 }
 body {
-    overflow-y: auto;
-overflow-x: hidden;
     background-image: url(img/back2.jpg);
     font-family: Typerwriter;
     margin: 0;
@@ -21,7 +19,8 @@ overflow-x: hidden;
 
 
 #JRI {
-    margin-top : 100px;
+   overflow-y: auto;
+ margin-top : 50px;
     display : flex;
     flex-direction : column;
     justify-content : center;
