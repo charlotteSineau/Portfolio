@@ -226,13 +226,13 @@ section.active {
 
 /*Portfolio*/
 
-.projects-page {
+#projects {
     z-index : 999;
     
         
 }
     
-.projects #menu {
+#projects #menu {
     background-image: none;
     background: linear-gradient(
     to bottom,
@@ -244,15 +244,15 @@ section.active {
 }
 
 
-.projects #menu a {
+#projects #menu a {
 color: #fff;}
 
 
-.projects-#menu a:hover {
+#projects #menu a:hover {
     color: #a5c977;
 }
 
-.projects #menu a.active {
+#projects #menu a.active {
     color: #a5c977;
 }
 
