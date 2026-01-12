@@ -225,6 +225,13 @@ section.active {
 
 
 /*Portfolio*/
+
+.projects-page {
+    z-index : 999;
+    
+        
+}
+    
 .projects-page #menu {
     background-image: none;
     background: linear-gradient(
